@@ -1,3 +1,4 @@
+// Trie dictionary
 const int SIGMA = 26;
 struct Node{
     vector<Node*> ocu;

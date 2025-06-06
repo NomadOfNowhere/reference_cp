@@ -1,9 +1,6 @@
-#include <bits/stdc++.h>
-using namespace std;
-
+// Recursive segment tree
 #define M ((l + r) >> 1)
 // Point update, range query
-int values[11];
 struct ST{
     int n;
     vector<int> st;
@@ -33,6 +30,8 @@ struct ST{
         return query(l, M, a, b, 2*i+1) + query(M+1, r, a, b, 2*i+2);
     }
 };  // l = 0, r = n-1, i = 0
+
+
 
 // Range update, point query
 // Use the same build function as above, but comment #!

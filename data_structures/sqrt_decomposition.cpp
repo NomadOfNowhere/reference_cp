@@ -1,3 +1,4 @@
+// SQRT Decomposition
 struct Sqrt{
     int n, b;
     vector<long long> blocks, values;

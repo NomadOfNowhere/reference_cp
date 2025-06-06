@@ -1,4 +1,4 @@
-// Fenwick Tree 1 based indexing
+// Fenwick Tree 1-based indexing
 struct FT{
     int n;
     vector<int> ft;

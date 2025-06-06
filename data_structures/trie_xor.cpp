@@ -1,3 +1,4 @@
+// Trie for maximum XOR
 struct Node{
     vector<Node*> ocu;
     Node() : ocu(2) {}
