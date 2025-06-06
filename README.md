@@ -1,1 +1,1 @@
-# reference_cp
+Templates, data structures, and algorithms commonly used in competitive programming.
